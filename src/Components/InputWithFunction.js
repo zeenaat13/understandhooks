@@ -1,11 +1,22 @@
-
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 export default function Input(){
 
     const [name,setName] = useState("Harry");
     const [lastName,setLastname] = useState("Potter");
+    const a = 0;
 
+    useEffect(()=>{
+        document.title = name+" "+lastName;
+    },[name, lastName]);
+
+    useEffect(()=> {
+        const timer = setInterval(() => {
+            console.log("Window-width: ",window.innerWidth);
+          }, 2000);
+          return(()=>{clearInterval(timer)})
+        }
+   );
    
     return(
         <>
@@ -35,7 +46,7 @@ function Row(props){
     const{label} = props;
     return(
         <>
-        <lable>{label}<br/></lable>
+        <label>{label}<br/></label>
         {props.children}
         <hr />
         </>
