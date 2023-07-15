@@ -1,14 +1,15 @@
 //import Input from "./Components/InputWithClass";
-import Input from "./Components/InputWithFunction";
+//import Input from "./Components/InputWithFunction";
+
+import Blog from "./Components/Blog";
 
 function App() {
   return (
     <>
-      <Input />
-
-     
+      <Blog />
     </>
   );
 }
 
 export default App;
+

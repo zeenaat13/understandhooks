@@ -4,7 +4,7 @@ export default function Input(){
 
     const [name,setName] = useState("Harry");
     const [lastName,setLastname] = useState("Potter");
-    const a = 0;
+    
 
     useEffect(()=>{
         document.title = name+" "+lastName;

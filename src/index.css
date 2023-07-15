@@ -3,13 +3,13 @@
   padding-left: 15px;
   margin:auto;
   max-width: 60%;
- background-color: rgb(215, 104, 6);
- color: white;
- border-radius: 10px;
- font-weight: bolder;
- font-family: Georgia, 'Times New Roman', Times, serif;
- display:block;
- align-self: center;
+  background-color: rgb(215, 104, 6);
+  color: white;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:block;
+  align-self: center;
     
 }
 
@@ -92,4 +92,3 @@ h1{
 background: -webkit-linear-gradient(right, #565318, #3C464E);
 background: -moz-linear-gradient(right, #565318, #3C464E);
 background: linear-gradient(to left, #565318, #3C464E); */
-
